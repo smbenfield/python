@@ -1,0 +1,12 @@
+#!/usr/bin/programming/python
+
+from sys import *
+script, filename = argv
+
+in_file = filename
+
+txt = open(filename)
+
+print txt.read()
+print "We are going to count the number of words in the file:", filename
+print "The length of the file =", len(in_file)
