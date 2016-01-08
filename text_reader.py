@@ -20,4 +20,4 @@ print number_words
 count = Counter(words)
 print count
 
-print "The top ten most used words are:", count[0,9]
+print "The top ten most used words are:", count[]
