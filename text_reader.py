@@ -4,6 +4,7 @@ from sys import *
 from collections import Counter
 
 script, filename = argv
+i = 1
 
 in_file = open(filename)
 indata = in_file.read()
@@ -19,5 +20,3 @@ number_words = len(words)
 print number_words
 count = Counter(words)
 print count
-
-print "The top ten most used words are:", count[]
