@@ -1,4 +1,4 @@
-#!/usr/bin/python/LPtHW
+#!/usr/bin/python
 # python ex35.py
 
 from sys import exit

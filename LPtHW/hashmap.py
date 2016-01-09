@@ -22,7 +22,6 @@ def get_slot(aMap, key, default=None):
 	Returns the -1, key, and default (None if not set) when not found.
 	"""
 	bucket = get_bucket(aMap, key)
-
 	for i, kv in enumerate(bucket):
 		k, v = kv
 		if key == k:
@@ -33,6 +32,7 @@ def get_slot(aMap, key, default=None):
 def get(aMap, key, default = None):
 	"""Gets the value in a bucket for the given key, or the default."""
 	i, k, v = get_slot(aMap, key, default = default)
+	print v
 	return v
 
 def set(aMap, key, value):
