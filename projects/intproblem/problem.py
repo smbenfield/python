@@ -1,3 +1,5 @@
+# Iteration variable
+i = 0
 # File enter
 name = raw_input('Enter file:')
 # File open, not read
@@ -7,17 +9,24 @@ text = handle.read()
 text = text.upper()
 # File split at spaces, in list now
 words = text.split()
+# Sorts list
 words.sort()
+
+# Slims down list
+slimwords = list()
+for word in words:
+	if not word in slimwords:
+		slimwords.append(word)
+
 # Establish dictionary
 counts = dict()
 # Loop through list, add one if there, create and add if not
 for word in words:
 	counts[word] = counts.get(word,0) + 1
 
-# Sorting in a list
-for word in words:
+#Prints values
+for word in slimwords:
 	print word, counts[word]
-
 # Largest so far thing
 bigcount = None
 bigword = None
