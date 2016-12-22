@@ -6,14 +6,14 @@ fopen = open(fname)
 fread = fopen.read()
 for line in fread:
 	fsplt = fread.strip()
-	fword = fsplt.split(" ")
+	fword = fsplt.split()
 
 count = dict()
 
 for word in fword:
 	if word not in count:
 		count[word] = 1
-	if word in count:
+	else:
 		count[word] = count[word] + 1
 
 print count
