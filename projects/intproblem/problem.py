@@ -4,16 +4,14 @@ fname = raw_input('Please enter your file name:')
 
 fopen = open(fname)
 fread = fopen.read()
-for line in fread:
-	fsplt = fread.strip()
+fuppr = fread.upper()
+for line in fuppr:
+	fsplt = fuppr.strip()
 	fword = fsplt.split()
 
 count = dict()
 
 for word in fword:
-	if word not in count:
-		count[word] = 1
-	else:
-		count[word] = count[word] + 1
+	count[word] = count.get(word,0) + 1
 
 print count
