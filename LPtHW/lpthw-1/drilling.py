@@ -6,7 +6,7 @@ import sys
 
 WORD_URL = "http://learncodethehardway.org/words.txt"
 WORDS = []
-
+# Creates a dictionary
 PHRASES = {
     "class %%%(%%%):":
       "Make a class named %%% that is-a %%%.",
