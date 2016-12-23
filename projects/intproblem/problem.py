@@ -2,6 +2,8 @@
 i = 0
 # File enter
 name = raw_input('Enter file:')
+# Sort Mode
+sort = raw_input("Sort by (A)lpha or (V)alue?")
 # File open, not read
 handle = open(name,'r')
 # File read, one big string
@@ -24,9 +26,18 @@ counts = dict()
 for word in words:
 	counts[word] = counts.get(word,0) + 1
 
-#Prints values
-for word in slimwords:
-	print word, counts[word]
+# Prints values
+if sort is 'A':
+	for word in slimwords:
+ 		print word, counts[word]
+else:
+	tmp = list()
+	for word, count in counts.items():
+		tmp.append((count, word))
+	tmp.sort(reverse = True)
+	for item in tmp:
+		print item
+
 # Largest so far thing
 bigcount = None
 bigword = None
