@@ -1,0 +1,29 @@
+The player wakes up in a field and has no clue where they are. They barely know their name and the player is asked what name they would prefer. They see two paths, running east to west. They must choose a direction. Upon choosing a direction, east goes to a farm house, while west goes to a small cave. In the cave, they find a pillow, a very small skeleton in a dress, and a doll. They must pick up the doll and place it in their inventory. At the farmhouse, they see a yard with very little, except if they look around, they find a key. They enter the farmhouse, and inside, on the first floor, they find a kitchen and a living room. In the kitchen, they find a knife. In the living room, a Bible. There are photos in the Bible of a young girl, her baby sibling, her mother, and her father. Upstairs, they find two bedrooms, one with a large bed, obviously the parents room, and one with a small bed and a crib. They find a box in the parents room and it opens with the key. Inside, the player finds a letter (include "CROATOAN"). In the kid's room, they find books, and a collection of rocks with holes in them. They head downstairs and back to the field, eventually going to the cave again. Once in the cave, they can use the rock with a hole in it to look through, and they see the ghost of the little girl. The little girl begins talking to them and explains that they were killed by a beast and the player needs to run. If they choose to run, they live. If they do not, they die.
+
+Scenes:
+  Opening
+    Name
+  Field
+    East
+      Yard
+        foyer
+          Kitchen
+          Living Room
+          Stairs
+            Parents Room
+            Kids Room
+    West
+      Cave
+      Ghost Cave
+  Survival
+  Death
+
+Inventory:
+  Doll
+  Pillow
+  Key
+  Rock
+  Knife
+  Bible
+  Photos
+  Letter
